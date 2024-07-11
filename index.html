@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="animated-heading"><span>I</span>mage Gallery</h1>
+        <div class="row">
+            <div class="col-md-3 mt-5">
+                <h2>What would you like to see?</h2>
+                <ul id="filters" class="f mt-5">
+                    <li>
+                      <button type="button" class="btn btn-warning btn-filter">
+                        <a data-filter="all">All</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn btn-warning btn-filter">
+                        <a data-filter="Clothes">Clothes</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn btn-warning btn-filter">
+                        <a data-filter="Shoes">Shoes</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button type="button" class="btn btn-warning btn-filter">
+                        <a data-filter="Bags">Bags</a>
+                      </button>
+                    </li>
+                  </ul>
+            </div>
+            <div class="col-md-9">
+                <div id="gallery" class="row">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Created by <a href="https://www.linkedin.com/in/tabina-yaseen-b95ba5278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Tabeena yaseen</a></p>
+
+</body>
+</html>
+<script src="script.js"></script>
